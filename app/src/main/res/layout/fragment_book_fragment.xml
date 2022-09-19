@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".navigation_fragments.book_fragment">
+
+    <TextView
+
+        android:id="@+id/book_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/archivo"
+        android:text="E-Books"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_Color"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_below="@+id/book_text"
+        android:id="@+id/book_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/searchbox_bg"
+        android:visibility="invisible"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="6dp"
+        android:hint="Search Here"
+        android:padding="8dp"
+        android:textColor="@color/text_Color"></EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/book_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/book_search_bar"
+        android:layout_marginTop="10dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/book_progressBar"
+        ></ProgressBar>
+
+
+</RelativeLayout>

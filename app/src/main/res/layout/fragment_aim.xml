@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_content.aim">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:text="The college aims at the integral development of the personality of every child, to make him/her committed to the service of godand of the nation and to instil into him/her a spirit of compassion, unselfish service, dedication to the duty, love for the fellow members and the thirst of excellence and wisdom. It will be earnest to give equal importance to the moral development of the students. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+
+</FrameLayout>

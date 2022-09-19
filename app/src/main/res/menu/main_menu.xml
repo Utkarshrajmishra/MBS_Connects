@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/drawer_home"
+        android:title="Home"
+        android:iconTint="@color/black"
+        android:icon="@drawable/home"
+        ></item>
+    </group>
+
+    <item
+        android:title="Profile"
+        >
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+                <item
+                    android:id="@+id/update"
+                    android:title="SHOW INFO"
+                    android:icon="@drawable/update_info"
+                    ></item>
+
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="LOGOUT"
+                    android:icon="@drawable/lougout"
+                    ></item>
+
+                <item
+                    android:id="@+id/pass"
+                    android:title="RESET PASSWORD"
+                    android:icon="@drawable/password"
+                    ></item>
+
+                <item
+                    android:id="@+id/delete_acc"
+                    android:title="DELETE ACCOUNT"
+                    android:icon="@drawable/delete"
+                    ></item>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item
+        android:title="Other"
+        >
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+
+
+                <item
+                    android:id="@+id/location_marker"
+                    android:title="LOCATION"
+                    android:icon="@drawable/location_marker"
+                    ></item>
+
+                <item
+                    android:id="@+id/gallery"
+                    android:title="GALLERY"
+                    android:icon="@drawable/gallery"
+                    ></item>
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="ABOUT DEVELOPER"
+                    android:icon="@drawable/about_developer"
+                    ></item>
+
+
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+</menu>

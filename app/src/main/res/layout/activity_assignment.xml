@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="30dp"
+    tools:context=".assignment.assignment_activity">
+
+    <TextView
+
+        android:id="@+id/assign_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/archivo"
+        android:text="assignment"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_Color"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/assignment_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/assign_text"
+        android:layout_marginTop="10dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/assignment_progressBar"
+        ></ProgressBar>
+
+</RelativeLayout>

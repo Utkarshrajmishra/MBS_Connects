@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp"
+    android:background="@color/white"
+    tools:context=".recorded_lecture.youtube">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectures"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:fontFamily="@font/archivo"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_Color"
+        ></TextView>
+
+
+        <ScrollView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                   
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

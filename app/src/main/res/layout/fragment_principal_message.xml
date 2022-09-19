@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_content.principal_message">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="It is rightly said that “The whole purpose of education is to teach the child to think and not what to think”. We at Marwar Business School believe that this is the fundamental truth and it has always been the endeavour of the school to instill right values in its students so that they develop a holistic personality and are ready to take on the challenges head on once they step out of the gates of the school.\nWe have set out on an elevating and stimulative journey with the aim of providing our children an exclusive learning experience by teaching them to march ahead with positive attitude, skill, confidence, sensitivity and responsibility."></TextView>
+
+</FrameLayout>

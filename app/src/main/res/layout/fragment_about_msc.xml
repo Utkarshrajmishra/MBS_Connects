@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbarSize="0dp"
+    android:layout_height="match_parent"
+    tools:context=".courses.about_msc">
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programme Details"
+            android:textSize="25sp"
+            android:textColor="@color/text_Color"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            ></TextView>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programme will develop broad commercial knowledge among the students and build skills vital for professional success."
+            ></TextView>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eligibility Criteria"
+            android:textSize="25sp"
+            android:textColor="@color/text_Color"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            ></TextView>
+
+        <TextView
+            android:text="Pass with 50% aggregate marks in 10+2 (with English) or equivalent.\n\n
+For a candidate, who has not studied English as a subject, the condition of English may be waived off
+provided the candidate in his qualifying exam has studied in English medium."
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scope"
+            android:textSize="25sp"
+            android:textColor="@color/text_Color"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            ></TextView>
+
+
+        <TextView
+            android:text="Candidates can work in public as well as in private sector. You can apply for government jobs like bank, UPSC, etc. The course also prepares the students for CA and CS. Chartered Accountant (CA) / Cost and Work Accountant (CWA) / Company Secretary (CS) are the advanced career options in this field."
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fee Structure"
+            android:textSize="25sp"
+            android:textColor="@color/text_Color"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            ></TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="The term 'Programme fee' as mentioned above, includes - Tuition and Development fees; University Fee for Registration/ Enrolment, Cultural, Sports, Club activities, Co-curricular activities etc. Fee for Additional Services/ Facilities for Contingency, Outreach, Placement, Medical, Counselor etc. as prescribe by the University."
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:text="Year Wise Fee Structure: "
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/msc_year_fee"
+                android:text="400000"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

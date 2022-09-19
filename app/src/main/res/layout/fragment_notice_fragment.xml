@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    tools:context=".navigation_fragments.notice_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:id="@+id/notice_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/archivo"
+        android:text="Notice"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_Color"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+         android:layout_below="@+id/notice_text"
+        android:id="@+id/deletenotice_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/deletenotice_progressBar"
+        ></ProgressBar>
+
+</RelativeLayout>

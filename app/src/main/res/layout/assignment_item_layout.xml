@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+
+    android:layout_marginTop="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+
+        android:layout_marginBottom="10dp"
+        >
+
+        <!--icon pdf-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            >
+
+        <ImageView
+            android:layout_marginTop="5dp"
+           android:layout_marginLeft="3dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/assignmemt_item_pic"
+            ></ImageView>
+               </LinearLayout>
+
+
+
+        <LinearLayout
+           android:layout_marginTop="10dp"
+            android:layout_width="230dp"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginLeft="20dp">
+
+
+            <TextView
+                 android:textStyle="bold"
+                android:id="@+id/assignment_title"
+
+                android:textColor="@color/text_Color"
+
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DSA Paper 2017"></TextView>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_Color"
+                    android:text="Date: "></TextView>
+                <TextView
+                    android:id="@+id/assignment_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_Color"
+                    android:text="12:2:3"></TextView>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_Color"
+                    android:text="Time: "></TextView>
+                <TextView
+                    android:id="@+id/assignment_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_Color"
+                    android:text="12:2:3"></TextView>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/assignment_download_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Download Homework"
+                android:backgroundTint="#A19E95"></Button>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

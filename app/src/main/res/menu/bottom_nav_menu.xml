@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:cnb_backgroundColor="@color/bg_color"
+        ></item>
+    <item
+        android:id="@+id/notice"
+        android:title="Notice"
+        android:icon="@drawable/notice"
+        app:cnb_backgroundColor="@color/bg_color"
+        ></item>
+    <item
+        app:cnb_backgroundColor="@color/bg_color"
+        android:id="@+id/book"
+        android:title="Book"
+        android:icon="@drawable/book"
+        ></item>
+    <item
+        app:cnb_backgroundColor="@color/bg_color"
+        android:id="@+id/homework"
+        android:title="Homework"
+        android:icon="@drawable/home_work"
+        ></item>
+
+
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/diagonal_box"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/text_Color"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        ></TextView>
+
+
+    <LinearLayout
+
+        android:id="@+id/class_time_table"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/class2_tt"
+            app:tint="#777575"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Class Time Table"
+
+            android:textSize="16sp"
+            android:textColor="#777575"
+            android:layout_marginLeft="15dp"></TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/sessional_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sessional_tt"
+            app:tint="#777575"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Sessioanl Time Table"
+
+            android:textSize="16sp"
+            android:textColor="#777575"
+            android:layout_marginLeft="15dp"></TextView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/semester_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/class_tt"
+            app:tint="#777575"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Semester Time Table"
+
+            android:textSize="16sp"
+            android:textColor="#777575"
+            android:layout_marginLeft="15dp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

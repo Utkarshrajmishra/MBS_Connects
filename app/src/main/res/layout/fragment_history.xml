@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_content.history">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Marwar Business School was found as one of the Co-Education College in 1999 with humble beginning and quality teachers.  The college began functioning in a tin shed on a patch of land which was surrounded by mango groves and infested with wild animals and now we have upgraded to large community with more 1000+ alumni. Beginning with the best college for BCOM we have reached the height where we one of the top college in the city not only for BCOM but also the other courses offered by our institution."
+        android:textSize="17sp"></TextView>
+</FrameLayout>

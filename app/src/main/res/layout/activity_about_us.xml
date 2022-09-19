@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context=".app_content.about_us">
+
+<androidx.cardview.widget.CardView
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+          android:src="@drawable/mawar_logo"></ImageView>
+
+
+        <LinearLayout
+           android:layout_marginLeft="5dp"
+            android:layout_marginTop="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marwar Business School"
+                android:textStyle="bold"
+                android:fontFamily="@font/archivo"
+                android:textSize="20sp"
+                android:textColor="@color/text_Color"
+                ></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naseerabad, Gorakhpur"></TextView>
+
+
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Affiliated by DDU Gorkahpur"
+></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#6431D8">
+
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principal's Messgae"></com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Histroy"></com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Aim"></com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Vision"></com.google.android.material.tabs.TabItem>
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab_layout"
+            android:background="@color/white"
+            android:paddingLeft="17sp"
+
+            android:paddingRight="17sp"></androidx.viewpager2.widget.ViewPager2>
+    </RelativeLayout>
+
+</LinearLayout>

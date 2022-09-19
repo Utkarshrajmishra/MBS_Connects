@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mbsconnects">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MBSConnects.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".loginandsignup.login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".loginandsignup.Signup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".bell_notification.notification_inbuilt"
+            android:exported="false" />
+        <activity
+            android:name=".loginandsignup.option_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recorded_lecture.youtube"
+            android:exported="false" />
+        <activity
+            android:name=".courses.Bsc"
+            android:exported="false" />
+        <activity
+            android:name=".courses.msc"
+            android:exported="false" />
+        <activity
+            android:name=".courses.mcom"
+            android:exported="false" />
+        <activity
+            android:name=".courses.bcom"
+            android:exported="false" />
+        <activity
+            android:name=".courses.bba"
+            android:exported="false" />
+        <activity
+            android:name=".courses.bca"
+            android:exported="false" />
+        <activity
+            android:name=".assignment.assignment_activity"
+            android:exported="false" />
+        <activity
+            android:name=".result.result_activity"
+            android:exported="false" />
+        <activity
+            android:name=".paper.previous_paper"
+            android:exported="false" />
+        <activity
+            android:name=".scheme.scheme_activity"
+            android:exported="false" />
+        <activity
+            android:name=".scheme.chocie_activity"
+            android:exported="false" />
+        <activity
+            android:name=".online_class.join_class"
+            android:exported="false" />
+        <activity
+            android:name=".app_content.about_us"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".notification.FirebaseService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.Send">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.Reciever" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

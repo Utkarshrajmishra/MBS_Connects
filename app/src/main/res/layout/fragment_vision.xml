@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_content.vision">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:text="Our Academy Aims At Preparing The Future Generation To Face The Challenge Of A Dynamic World Order.Great Emphasisis Laid On Character Building Imbibing Democratic And Secular Values Of Indian Culture. It’s a Marwari Minority educational institution enjoying all the privileges and prerogatives as admissible under the relevant provisions of the Constitution of India. Although the school is set up primarily for the educational needs of children, the school admits children of all casts, creeds, religions, regions, languages, cultures with all freedom and liberty to pursue their faith with respect and dignity."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+
+</FrameLayout>
